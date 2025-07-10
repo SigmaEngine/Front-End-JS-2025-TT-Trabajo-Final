@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- SEO & Accesibilidad -->
+    <meta name="description" content="Sección de coches.">
+    <meta name="keywords" content="GTR2, FIA GT, Simbin, coches">
+    <meta name="author" content="GTR2 Recap">
+    <!-- Titulo de Pagina -->
+    <title>GTR2 Recap</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="shortcut icon" href="../images/GTR2 Recap.jpg" type="image/x-icon">
+    <style>
+     .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      padding: 10px;
+      gap: 10px;
+     }
+     .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+     }
+     .galeria img:hover {
+      transform: scale(1.05);
+     }
+     h1 {
+      text-align: center;
+      margin-bottom: 20px;
+     }
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .cerrar {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: white;
+      text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>GTR2: Recap</h1>
+        <img src="../images/GTR2 Recap.jpg" alt="Logo" width="200">
+        <p>Estas viendo imagenes del videojuego GTR2: FIA GT Racing Game</p>
+    </header>
+    <!-- Navegación -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="../gtr2recapwebside.html" target="_self">Pagina Principal</a></li>
+            <li><a href="clasesycoches.html" target="_self">Clases y Coches</a></li>
+            <li><a href="circuitos.html" target="_self">Circuitos</a></li>
+        </ul>
+    </nav>
+    <!-- Contenido principal -->
+    <main>
+        <section id="imagenes">
+            <h2>Imagenes</h2>
+            <p>Compilado de imagenes del juego.</p>
+        </section>
+        <h1>Galería de Imágenes</h1>
+        <div class="galeria">
+         <a href="#img1"><img src="../images/GTR2 Captura 1.jpg" alt="Descripción 1"></a>
+         <a href="#img2"><img src="../images/GTR2 Captura 2.png" alt="Descripción 2"></a>
+         <a href="#img3"><img src="../images/GTR2 Captura 3.png" alt="Descripción 3"></a>
+         <a href="#img4"><img src="../images/GTR2 Captura 4.png" alt="Descripción 4"></a>
+         <a href="#img5"><img src="../images/GTR2 Captura 5.jpeg" alt="Descripción 5"></a>
+         <a href="#img6"><img src="../images/GTR2 Captura 6.jpg" alt="Descripción 6"></a>
+         <a href="#img7"><img src="../images/GTR2 Captura 7.jpg" alt="Descripción 7"></a>
+         <a href="#img8"><img src="../images/GTR2 Captura 8.jpg" alt="Descripción 8"></a>
+         <a href="#img9"><img src="../images/GTR2 Captura 9.jpg" alt="Descripción 9"></a>
+         <a href="#img10"><img src="../images/GTR2 Captura 10.jpg" alt="Descripción 10"></a>
+         <a href="#img11"><img src="../images/GTR2 Captura 11.jpg" alt="Descripción 11"></a>
+         <a href="#img12"><img src="../images/GTR2 Captura 12.jpg" alt="Descripción 12"></a>
+         <a href="#img13"><img src="../images/GTR2 Captura 13.jpg" alt="Descripción 13"></a>
+         <a href="#img14"><img src="../images/GTR2 Captura 14.jpg" alt="Descripción 14"></a>
+         <a href="#img15"><img src="../images/GTR2 Captura 15.jpg" alt="Descripción 15"></a>
+         <a href="#img16"><img src="../images/GTR2 Captura 16.jpg" alt="Descripción 16"></a>
+         <a href="#img17"><img src="../images/GTR2 Captura 17.jpg" alt="Descripción 17"></a>
+         <a href="#img18"><img src="../images/GTR2 Captura 18.jpg" alt="Descripción 18"></a>
+         <!-- Agrega más imágenes según sea necesario -->
+        </div>
+        <!-- Lightboxes -->
+        <div class="lightbox" id="img1">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 1.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img2">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 2.png" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img3">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 3.png" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img4">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 4.png" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img5">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 5.jpeg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img6">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 6.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img7">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 7.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img8">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 8.jpg" alt="Imagen ampliada">
+        </div>
+         <div class="lightbox" id="img9">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 9.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img10">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 10.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img11">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 11.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img12">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 12.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img13">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 13.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img14">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 14.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img15">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 15.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img16">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 16.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img17">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 17.jpg" alt="Imagen ampliada">
+        </div>
+        <div class="lightbox" id="img18">
+         <a href="#" class="cerrar">&times;</a>
+         <img src="../images/GTR2 Captura 18.jpg" alt="Imagen ampliada">
+        </div>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto -->
+            <form action="https://formspree.io/f/tu-endpoint" method="POST">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+            <!-- Tarjetas de reseñas (Div) -->
+            <div class="reseñas">
+              <div class="tarjeta">
+                <p>"Los graficos adelantados en su epoca."</p>
+                <p>- Thomas Funegurdson</p>
+              </div>
+              <div class="tarjeta">
+                <p>"Se nota la escencia del juego."</p>
+                <p>- Randalph Reynard</p>
+              </div>
+              <div class="tarjeta">
+                <p>"Las fisicas del juego eran increibles."</p>
+                <p>- Tom Wachowski</p>
+              </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025, Todos los derechos reservados a SimBin Studios, 10tacle Studios y Blimey! Games.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="../images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="../images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="../images/youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>

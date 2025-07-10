@@ -1,0 +1,1 @@
+Trabajo Final de Front End que consiste en una pagina llamada GTR2 que recopila algo de información sobre ese videojuego.

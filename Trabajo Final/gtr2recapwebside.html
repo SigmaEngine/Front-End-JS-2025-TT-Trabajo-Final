@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO & Accesibilidad -->
+    <meta name="description" content="Sitio dedicado al videojuego GTR2: información, imágenes, circuitos y mods.">
+    <meta name="keywords" content="GTR2, FIA GT, Simbin, mods, coches, circuitos">
+    <meta name="author" content="GTR2 Recap">
+    <!-- Titulo de Pagina -->
+    <title>GTR2 Recap</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/coches.css">
+    <link rel="shortcut icon" href="./images/GTR2 Recap.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Logo -->
+    <header>
+        <h1>GTR2: Recap</h1>
+        <img src="./images/GTR2 Recap.jpg" alt="Logo" width="200">
+        <p>Bienvenido a la Pagina de informacion del videojuego GTR2: FIA GT Racing Game</p>
+    </header>
+    <!-- Header Video -->
+    <header>
+    <video controls width="600">
+      <source src="./videos/GTR2 Intro.mp4" type="video/mp4">
+      <track src="./videos/GTR2 Intro.vtt" kind="subtitles" srclang="es" label="Español">
+    </video>
+   </header>
+    <!-- Navegación (Nav)-->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#clases y coches">Clases y Coches</a></li>
+            <li><a href="#circuitos">Circuitos</a></li>
+            <li><a href="#imagenes">Imagenes</a></li>
+            <li><a href="#simulador de tienda de coches">Simulador de Tienda de Coches</a></li>
+        </ul>
+    </nav>
+    <!-- Contenido principal (Main y Section)-->
+    <main>
+        <section id="clases y coches">
+            <h2>Clases y Coches</h2>
+            <a href="./pages/clasesycoches.html" target="_self"><img src="./images/Coches.jpg" alt="Clases y Coches" width="400"></a>
+            <p>Todas las categorias y coches de la Temporada 2003 y 2004 de la FIA GT.</p>
+        </section>
+        <section id="circuitos">
+            <h2>Circuitos</h2>
+            <a href="./pages/circuitos.html" target="_self"><img src="./images/Circuitos.jpg" alt="Circuitos" width="400"></a>
+            <p>Listado de circuitos que forman parte del videojuego.</p>
+        </section>
+        <section id="imagenes">
+            <h2>Imagenes</h2>
+            <a href="./pages/imagenes.html" target="_self"><img src="./images/Imagenes.jpg" alt="Imagenes" width="400"></a>
+            <p>Imagenes del videojuego.</p>
+        </section>
+        <section id="simulador de tienda de coches">
+            <h2>Simulador de Tienda de Coches</h2>
+            <a href="./pages/simuladordetienda.html" target="_self"><img src="./images/Tienda.jpg" alt="Imagenes" width="400"></a>
+            <p>Simula que compras un coche del juego mediante progreso en tus estadisticas.</p>
+        </section>
+        <section class="Productos">
+            <h2>Paginas de Modificaciones para GTR2</h2>
+                <div class="productos-lista">
+                  <div class="esport-racing">
+                    <a href="https://esport-racing.de/" target="_blank"><img src="./images/esport-racing-icon.png" alt="esport-racing"></a>
+                    <p>esport-racing</p>
+                  </div>
+                  <div class="OverTake">
+                    <a href="https://www.overtake.gg/forums/gtr-2-mods.436/" target="_blank"><img src="./images/overtake-icon.jpg" alt="OverTake"></a>
+                    <p>OverTake</p>
+                  </div>
+                  <div class="European Endurance Center">
+                    <a href="https://gtr2-endurance.forumotion.org/c1-gtr2-mods-tracks" target="_blank"><img src="./images/endurance-european-center-icon.png" alt="European Endurance Center"></a>
+                    <p>European Endurance Center</p>
+                  </div>
+                  <div class="GT-Italia Modding Team">
+                    <a href="https://gt-imt.forumattivo.it/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjA-phTUyBIN5Ap09IzRQWuF084H52PhrTvQ&s" alt="GT Italia Modding Team"></a>
+                    <p>GT-Italia Modding Team</p>
+                  </div>
+                </div>
+        </section>
+    </main>
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto -->
+            <form action="https://formspree.io/f/tu-endpoint" method="POST">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+            <!-- Tarjetas de reseñas (Div) -->
+            <div class="reseñas">
+              <div class="tarjeta">
+                <p>"Gran pagina para conocer información del GTR2!"</p>
+                <p>- Thomas Funegurdson</p>
+              </div>
+              <div class="tarjeta">
+                <p>"Me da nostalgia al leer toda esta informacion sobre este gran juego."</p>
+                <p>- Nostalfan</p>
+              </div>
+              <div class="tarjeta">
+                <p>"Recomiendo completamente esta pagina para aprenderse el juego antes de rodar en pista."</p>
+                <p>- Pedro Gaseoso</p>
+              </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página (Footer) -->
+    <footer>
+        <p>&copy; 2025, Todos los derechos reservados a SimBin Studios, 10tacle Studios y Blimey! Games.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="./images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="./images/youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
+</html>

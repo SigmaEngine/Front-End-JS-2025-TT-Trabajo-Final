@@ -1,0 +1,74 @@
+/* Page */
+.page-header {
+    background-image: url(../../img/banner/banner.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+    & h2,
+    p {
+        color: #fff;
+    }
+}
+
+.pagination {
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+        background-color: #088178;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: 600;
+
+        & i {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
+
+/* Enfoque Desktop-First (usando max-width): */
+/* Estilos base para desktop */
+.elemento { width: 25%; }
+
+/* Desktop medio */
+@media (max-width: 1200px) {
+    .elemento { width: 33.33%; }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .elemento { width: 50%; }
+}
+
+/* Móviles */
+@media (max-width: 576px) {
+    .elemento { width: 100%; }
+}
+
+/* Enfoque Mobile-First (usando min-width): */
+
+/* Estilos base para móviles */
+.elemento { width: 100%; }
+
+/* Tablets */
+@media (min-width: 576px) {
+    .elemento { width: 50%; }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .elemento { width: 33.33%; }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .elemento { width: 25%; }
+}
